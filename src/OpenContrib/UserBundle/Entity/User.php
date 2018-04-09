@@ -3,7 +3,7 @@
 
 namespace OpenContrib\UserBundle\Entity;
 
-use FOS\UserBundle\Entity\User as BaseUser;
+use FOS\UserBundle\Model\User as BaseUser;
 use Doctrine\ORM\Mapping as ORM;
 use Vich\UploaderBundle\Mapping\Annotation as Vich;
 use Symfony\Component\Validator\Constraints as Assert;
@@ -54,7 +54,8 @@ class User extends BaseUser
     private $imageName;
 
     /**
-     * @Vich\UploadableField(mapping="user_images", fileNameProperty="imageName", nullable=true)
+     * @Vich\UploadableField(mapping="user_images", fileNameProperty="imageName")
+     * @ORM\Column(nullable=true)
      * @var File
      */
     private $imageFile;
