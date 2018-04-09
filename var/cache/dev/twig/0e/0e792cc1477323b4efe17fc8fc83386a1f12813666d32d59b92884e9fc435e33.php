@@ -51,16 +51,16 @@ class __TwigTemplate_a62d3bf11fb9b69bdcd364708af2770bcf19be9776320bb1b5cc806199e
 
         // line 4
         if (isset($context['assetic']['debug']) && $context['assetic']['debug']) {
-            // asset "4f0bd9b_0"
-            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("_assetic_4f0bd9b_0") : $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("_controller/images/4f0bd9b_267-min_1.jpg");
+            // asset "af59560_0"
+            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("_assetic_af59560_0") : $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("_controller/images/af59560_old-oakland-bay-bridge-don-thomas_1.jpg");
             // line 5
             echo "  <div class=\"jumbotron\" style=\"background-image:url(";
             echo twig_escape_filter($this->env, (isset($context["asset_url"]) || array_key_exists("asset_url", $context) ? $context["asset_url"] : (function () { throw new Twig_Error_Runtime('Variable "asset_url" does not exist.', 5, $this->source); })()), "html", null, true);
             echo ");padding-bottom:0;margin-bottom:0\">
     ";
         } else {
-            // asset "4f0bd9b"
-            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("_assetic_4f0bd9b") : $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("_controller/images/4f0bd9b.jpg");
+            // asset "af59560"
+            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("_assetic_af59560") : $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("_controller/images/af59560.jpg");
             echo "  <div class=\"jumbotron\" style=\"background-image:url(";
             echo twig_escape_filter($this->env, (isset($context["asset_url"]) || array_key_exists("asset_url", $context) ? $context["asset_url"] : (function () { throw new Twig_Error_Runtime('Variable "asset_url" does not exist.', 5, $this->source); })()), "html", null, true);
             echo ");padding-bottom:0;margin-bottom:0\">
@@ -68,8 +68,8 @@ class __TwigTemplate_a62d3bf11fb9b69bdcd364708af2770bcf19be9776320bb1b5cc806199e
         }
         unset($context["asset_url"]);
         // line 7
-        echo "<h1 class=\"animated fadeInLeft\">OpenContrib</h1>
-<p class=\"animated fadeInRight\">Apportez de la visibilité qui manque à vos projets !</p>
+        echo "<h1 class=\"animated fadeInLeft\">Bridgin</h1>
+<!-- <p class=\"animated fadeInRight\"></p> -->
 
 </div>
     <div class=\"col-lg-12\"style=\"background-color: #E1E8EB;\">
@@ -200,11 +200,11 @@ class __TwigTemplate_a62d3bf11fb9b69bdcd364708af2770bcf19be9776320bb1b5cc806199e
         return new Twig_Source("{% extends 'OpenContribViewBundle::main.html.twig' %}
 
 {% block container %}
-{% image '@OpenContribViewBundle/Resources/public/images/267-min.jpg' %}
+{% image '@OpenContribViewBundle/Resources/public/images/old-oakland-bay-bridge-don-thomas.jpg' %}
   <div class=\"jumbotron\" style=\"background-image:url({{ asset_url }});padding-bottom:0;margin-bottom:0\">
     {% endimage %}
-<h1 class=\"animated fadeInLeft\">OpenContrib</h1>
-<p class=\"animated fadeInRight\">Apportez de la visibilité qui manque à vos projets !</p>
+<h1 class=\"animated fadeInLeft\">Bridgin</h1>
+<!-- <p class=\"animated fadeInRight\"></p> -->
 
 </div>
     <div class=\"col-lg-12\"style=\"background-color: #E1E8EB;\">

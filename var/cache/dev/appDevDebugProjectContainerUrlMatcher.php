@@ -82,27 +82,24 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
 
         elseif (0 === strpos($pathinfo, '/images')) {
-            if (0 === strpos($pathinfo, '/images/4')) {
-                // _assetic_4f0bd9b
-                if ('/images/4f0bd9b.jpg' === $pathinfo) {
-                    return array (  '_controller' => 'assetic.controller:render',  'name' => '4f0bd9b',  'pos' => NULL,  '_format' => 'jpg',  '_route' => '_assetic_4f0bd9b',);
-                }
+            // _assetic_af59560
+            if ('/images/af59560.jpg' === $pathinfo) {
+                return array (  '_controller' => 'assetic.controller:render',  'name' => 'af59560',  'pos' => NULL,  '_format' => 'jpg',  '_route' => '_assetic_af59560',);
+            }
 
-                // _assetic_4f0bd9b_0
-                if ('/images/4f0bd9b_267-min_1.jpg' === $pathinfo) {
-                    return array (  '_controller' => 'assetic.controller:render',  'name' => '4f0bd9b',  'pos' => 0,  '_format' => 'jpg',  '_route' => '_assetic_4f0bd9b_0',);
-                }
+            // _assetic_af59560_0
+            if ('/images/af59560_old-oakland-bay-bridge-don-thomas_1.jpg' === $pathinfo) {
+                return array (  '_controller' => 'assetic.controller:render',  'name' => 'af59560',  'pos' => 0,  '_format' => 'jpg',  '_route' => '_assetic_af59560_0',);
+            }
 
-                // _assetic_4d9e2c6
-                if ('/images/4d9e2c6.png' === $pathinfo) {
-                    return array (  '_controller' => 'assetic.controller:render',  'name' => '4d9e2c6',  'pos' => NULL,  '_format' => 'png',  '_route' => '_assetic_4d9e2c6',);
-                }
+            // _assetic_4d9e2c6
+            if ('/images/4d9e2c6.png' === $pathinfo) {
+                return array (  '_controller' => 'assetic.controller:render',  'name' => '4d9e2c6',  'pos' => NULL,  '_format' => 'png',  '_route' => '_assetic_4d9e2c6',);
+            }
 
-                // _assetic_4d9e2c6_0
-                if ('/images/4d9e2c6_git_1.png' === $pathinfo) {
-                    return array (  '_controller' => 'assetic.controller:render',  'name' => '4d9e2c6',  'pos' => 0,  '_format' => 'png',  '_route' => '_assetic_4d9e2c6_0',);
-                }
-
+            // _assetic_4d9e2c6_0
+            if ('/images/4d9e2c6_git_1.png' === $pathinfo) {
+                return array (  '_controller' => 'assetic.controller:render',  'name' => '4d9e2c6',  'pos' => 0,  '_format' => 'png',  '_route' => '_assetic_4d9e2c6_0',);
             }
 
             // _assetic_0572b3f

@@ -59,7 +59,7 @@ class __TwigTemplate_7ab03ce23b05725f12a772f96b56e97832e95a79dcf3462d2b96c63c390
       <a class=\"navbar-brand animated fadeIn\" href=\"";
         // line 13
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("open_contrib_view_homepage");
-        echo "\">OpenContrib</a>
+        echo "\" style=\"color: #990000;\">Bridgin</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -121,7 +121,7 @@ class __TwigTemplate_7ab03ce23b05725f12a772f96b56e97832e95a79dcf3462d2b96c63c390
         <span class=\"icon-bar\"></span>
         <span class=\"icon-bar\"></span>
       </button>
-      <a class=\"navbar-brand animated fadeIn\" href=\"{{ path('open_contrib_view_homepage') }}\">OpenContrib</a>
+      <a class=\"navbar-brand animated fadeIn\" href=\"{{ path('open_contrib_view_homepage') }}\" style=\"color: #990000;\">Bridgin</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

@@ -42,19 +42,19 @@ return array (
       ),
     ),
   ),
-  '4f0bd9b' => 
+  'af59560' => 
   array (
     0 => 
     array (
-      0 => '@OpenContribViewBundle/Resources/public/images/267-min.jpg',
+      0 => '@OpenContribViewBundle/Resources/public/images/old-oakland-bay-bridge-don-thomas.jpg',
     ),
     1 => 
     array (
     ),
     2 => 
     array (
-      'output' => '_controller/images/4f0bd9b.jpg',
-      'name' => '4f0bd9b',
+      'output' => '_controller/images/af59560.jpg',
+      'name' => 'af59560',
       'debug' => NULL,
       'combine' => NULL,
       'vars' => 
