@@ -109,9 +109,23 @@ position: relative;
   flex-direction: column;
 }
 
+.project--inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+
 .project .row {
   width: 95%;
-  height: 300px;
+  height: 200px;
   margin: 10px 0;
 }
 
@@ -121,26 +135,24 @@ position: relative;
 }
 
 .project .img {
-  border-radius: 20px;
+  border-radius: 0px;
   display: flex;
   flex-direction: column;
 }
 
-.project .description, .project .title {
+.project .best, .project .last {
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 text-align: justify;
 background-size: cover;
-height: 300px;
+height: 200px;
 width: 80%;
+  margin: auto;
 }
 
-.project .description p {
 
-word-wrap: break-word;
-}
 
 .project .img {
   background-size: cover;
