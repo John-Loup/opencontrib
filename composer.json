@@ -5,7 +5,7 @@
     "description": "The \"Symfony Standard Edition\" distribution",
     "autoload": {
         "psr-4": {
-	          "OpenContrib\\": "src/OpenContrib"
+            "OpenContrib\\": "src/OpenContrib"
         },
         "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
     },
@@ -14,18 +14,20 @@
     },
     "require": {
         "php": ">=5.3.9",
-        "doctrine/doctrine-bundle": "~1.4",
-        "doctrine/orm": "^2.4.8",
-        "friendsofsymfony/user-bundle": "^1.3",
+        "doctrine/doctrine-bundle": "^1.6",
+        "doctrine/annotations": "1.4.*",
+        "doctrine/dbal": "2.5.4",
+        "doctrine/orm": "^2.5.6",
+        "friendsofsymfony/user-bundle": ">=2.0",
         "incenteev/composer-parameter-handler": "~2.0",
-        "sensio/distribution-bundle": "~4.0",
+        "sensio/distribution-bundle": ">=4.0",
         "sensio/framework-extra-bundle": "^3.0.2",
         "symfony/assetic-bundle": "^2.8",
         "symfony/monolog-bundle": "^3.0.2",
         "symfony/swiftmailer-bundle": "~2.3,>=2.3.10",
-        "symfony/symfony": "2.8.*",
+        "symfony/symfony": "3.3.*",
         "twig/twig": "^1.0||^2.0",
-        "vich/uploader-bundle": "^0.14.0"
+        "vich/uploader-bundle": ">=0.14.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "~3.0",
@@ -50,7 +52,7 @@
     "config": {
         "bin-dir": "bin",
         "platform": {
-            "php": "5.3.9"
+            "php": "7.2.3"
         },
         "sort-packages": true
     },
